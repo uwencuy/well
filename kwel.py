@@ -75,34 +75,34 @@ button_comma = tk.Button(master=frame, text=',', padx=15,
                     pady=5, bg="gray", fg="white", borderwidth=10, font=('hevatica', 30), width=3, command=comma)
 button_comma.grid(row=1, column=2, pady=2, sticky="nsew")
 button_1 = tk.Button(master=frame, text='1', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(1))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(1))
 button_1.grid(row=2, column=2, pady=2, sticky="nsew")
 button_2 = tk.Button(master=frame, text='2', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(2))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(2))
 button_2.grid(row=2, column=1, pady=2, sticky="nsew")
 button_3 = tk.Button(master=frame, text='3', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(3))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(3))
 button_3.grid(row=2, column=0, pady=2, sticky="nsew")
 button_4 = tk.Button(master=frame, text='4', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(4))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(4))
 button_4.grid(row=3, column=0, pady=2, sticky="nsew")
 button_5 = tk.Button(master=frame, text='5', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(5))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(5))
 button_5.grid(row=3, column=1, pady=2, sticky="nsew")
 button_6 = tk.Button(master=frame, text='6', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(6))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(6))
 button_6.grid(row=3, column=2, pady=2, sticky="nsew")
 button_7 = tk.Button(master=frame, text='7', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(7))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(7))
 button_7.grid(row=4, column=2, pady=2, sticky="nsew")
 button_8 = tk.Button(master=frame, text='8', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(8))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(8))
 button_8.grid(row=4, column=1, pady=2, sticky="nsew")
 button_9 = tk.Button(master=frame, text='9', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(9))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(9))
 button_9.grid(row=4, column=0, pady=2, sticky="nsew")
 button_0 = tk.Button(master=frame, text='0', fg="white", padx=15, 
-                    pady=5, bg="skyblue", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(0))
+                    pady=5, bg="light green", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick(0))
 button_0.grid(row=5, column=0, pady=2, sticky="nsew")
 button_add = tk.Button(master=frame, text="+", fg="white", padx=15, 
                     pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick('+'))
@@ -113,14 +113,14 @@ button_subtract.grid(row=2, column=3, pady=2, sticky="nsew")
 button_multiply = tk.Button(master=frame, text="*", fg="white", padx=15, 
                     pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick('*'))
 button_multiply.grid(row=3, column=3, pady=2, sticky="nsew")
-button_clear = tk.Button(master=frame, text="AC", fg="white", padx=15, 
-                    pady=5, bg="orange", borderwidth=10, font=('hevatica', 30), width=3, command=clear)
+button_clear = tk.Button(master=frame, text="AC", fg="black", padx=15, 
+                    pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=clear)
 button_clear.grid(row=1, column=0, columnspan=1, pady=2, sticky="nsew")
 button_div = tk.Button(master=frame, text="/", fg="white", padx=15, 
                     pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=lambda: myclick('/'))
 button_div.grid(row=4, column=3, pady=2, sticky="nsew")
-button_delete = tk.Button(master=frame, text="C", fg="white", padx=15, 
-                    pady=5, bg="orange", borderwidth=10, font=('hevatica', 30), width=3, command=delete_last)
+button_delete = tk.Button(master=frame, text="C", fg="black", padx=15, 
+                    pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=delete_last)
 button_delete.grid(row=1, column=1, columnspan=1, pady=2, sticky="nsew")
 button_equal = tk.Button(master=frame, text="=", fg="white", padx=15, 
                     pady=5, bg="gray", borderwidth=10, font=('hevatica', 30), width=3, command=equal)
